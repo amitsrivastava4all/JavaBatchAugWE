@@ -1,0 +1,47 @@
+DataTypes
+a) Primitive Data Types / Value Data Type
+
+int x = 100;
+
+float r = 100.20f;
+Non-Decimal
+Bit 0,1 Base - 2
+byte - 1 Byte - 8 Bit
+1 Bit is for sign + -
+7 Bit
+- 2 ^ 7 to 2^ 7 -1
+-128 to 127
+-2 ^ 15 to 2 ^ 15 - 1
+-32768 to 32767
+short - 2 Byte
+
+int - 4 Byte
+- 32 Bit
+long - 8 Byte
+64 bit
+
+Decimal
+float  (4 Byte), double (8 Byte)
+
+boolean  2 byte, 1 byte
+true - 1
+false - 0
+
+char -2 Byte
+UNICODE Char
+0 to 65535
+A-65
+a-97
+
+b) Reference Data Types
+String 
+String is a Predefine Java Class
+String is a collection of characters
+String is a char [] array
+String use String Pool
+String objects are Immutable
+
+StringBuffer  - Mutable
+StringBuilder
+
+String x = “Hello”;
